@@ -39,12 +39,17 @@ import temp22 from './temp22.png'
 import temp23 from './temp23.png'
 import temp24 from './temp24.png';
 import template from './template.png'
-
+import pen from './pen.svg'
+import stars from './stars.svg'
+import tick from './tick.svg'
 import leftflower from './leftflower.png';
 import hands from './hands.png'
 
 
 export {
+    pen,
+    tick,
+    stars,
     bg,
     hands,
     template,

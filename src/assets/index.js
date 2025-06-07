@@ -8,7 +8,7 @@ import card6 from './card6.png'
 import card7 from './card7.png'
 import card8 from './card8.png'
 import card9 from './card9.png'
-
+import bg from './bg.svg';
 import card11 from './card11.png'
 import card12 from './card12.png'
 import card13 from './card13.png';
@@ -45,6 +45,7 @@ import hands from './hands.png'
 
 
 export {
+    bg,
     hands,
     template,
     biotemp,

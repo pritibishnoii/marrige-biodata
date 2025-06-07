@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { CiMenuFries } from "react-icons/ci";
+
+
 import { IoClose } from "react-icons/io5";
+import { CgMenuRight } from "react-icons/cg";
 
 const navItems = [
     {
@@ -62,15 +64,15 @@ const Navbar = () => {
     };
 
     return (
-        <nav className='bg-[#FFFFFF] w-full h-22 shadow-2xl font-libre pb-3 relative'>
+        <nav className='bg-[#FFFFFF] w-full h-22 shadow-2xl font-libre pb-4 relative'>
             {/* Desktop Navigation */ }
             <div className='hidden md:flex justify-end md:py-12 px-8'>
                 <ul className='text-[#751457] flex justify-evenly items-end list-none space-x-8'>
                     { navItems.map( ( item, index ) => (
                         <motion.li
                             key={ index }
-                            whileHover={ { scale: 1.1 } }
-                            whileTap={ { scale: 0.95 } }
+                        // whileHover={ { scale: 1.1 } }
+                        // whileTap={ { scale: 0.95 } }
                         >
                             <NavLink
                                 to={ item.path }
@@ -88,11 +90,11 @@ const Navbar = () => {
             {/* Mobile Menu Button */ }
             <div className='md:hidden flex justify-end p-4'>
                 <motion.button
-                    whileTap={ { scale: 0.95 } }
+                    // whileTap={ { scale: 0.95 } }
                     onClick={ toggleMenu }
-                    className='text-[#751457] text-2xl'
+                    className='text-[#751457] text-4xl font-bold'
                 >
-                    { isOpen ? <IoClose /> : <CiMenuFries /> }
+                    { isOpen ? <IoClose className='w-10 h-10' /> : <CgMenuRight className='w-10 h-10' /> }
                 </motion.button>
             </div>
 

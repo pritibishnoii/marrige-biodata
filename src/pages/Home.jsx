@@ -5,6 +5,7 @@ import FeatureCard from '../components/FeatureCard'
 import BiodataMakerCard from '../components/BiodataMakerCard'
 import FAQ from '../components/FAQ'
 import Footer from '../components/Footer'
+import DetailedGuied from '../components/DetailedGuied'
 
 const Home = () => {
     return (
@@ -12,9 +13,12 @@ const Home = () => {
             <Hero />
             <BiodataForm />
             <FeatureCard />
+            <DetailedGuied />
             <BiodataMakerCard />
             <FAQ />
             <Footer />
+
+
         </div>
     )
 }

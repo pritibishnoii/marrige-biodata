@@ -42,15 +42,21 @@ import template from './template.png'
 import pen from './pen.svg'
 import stars from './stars.svg'
 import tick from './tick.svg'
-import leftflower from './leftflower.png';
 import hands from './hands.png'
 import fb from './fb.svg'
 import twiter from './twiter.svg'
 import whatsup from './whatsup.svg'
 import insta from './insta.svg'
-
+import bottomFlower from './bottomflower.svg'
+import slflower from './slflower.svg'
+import whiteFlower from './whiteflower.svg'
+import leftFlower from './leftFlower.svg'
 
 export {
+    leftFlower,
+    whiteFlower,
+    bottomFlower,
+    slflower,
     insta,
     fb,
     twiter,
@@ -71,7 +77,6 @@ export {
     card7,
     card8,
     card9,
-    leftflower,
     card11,
     card12,
     card13,

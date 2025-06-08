@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
-import { flower, sflower, leftflower, hands, template, biotemp } from '../assets';
+import { flower, sflower, leftFlower, hands, template, biotemp } from '../assets';
 
 const Hero = () => {
     return (
@@ -18,7 +18,7 @@ const Hero = () => {
             </div>
 
             <div className="hidden md:flex justify-center items-center mt-12 relative">
-                <img src={ leftflower } alt="Flower" className="absolute top-58 left-5 w-24 md:w-68" />
+                <img src={ leftFlower } alt="Flower" className="absolute top-58 left-5 w-24 md:w-68" />
             </div>
 
             <div className='w-full flex flex-col md:flex-row px-4 md:px-8 md:-mt-12   '>

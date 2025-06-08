@@ -44,9 +44,17 @@ import stars from './stars.svg'
 import tick from './tick.svg'
 import leftflower from './leftflower.png';
 import hands from './hands.png'
+import fb from './fb.svg'
+import twiter from './twiter.svg'
+import whatsup from './whatsup.svg'
+import insta from './insta.svg'
 
 
 export {
+    insta,
+    fb,
+    twiter,
+    whatsup,
     pen,
     tick,
     stars,

@@ -183,4 +183,60 @@ const Card = [
     }
 ]
 
-export { PersonalInfo, FamilyInfo, ContactInfo, Card }
+
+
+
+const featurBioData = {
+    header: {
+        title: "Features of marriage biodata maker",
+        description: "We have designed the best looking, well formatted marriage biodata formats for you to just choose and make biodata without any hassle. No need to invest time on layouts, designs and getting that perfect biodata for marriage."
+    },
+    features: [
+        {
+            id: 1,
+            cardTitle: "Photo in Marriage Biodata",
+            cardDes: "You can create marriage biodata with photo or without photo. It depends upon your personal preference whether you want to include photo in your marriage biodata or not. Below we have..."
+        },
+        {
+            id: 2,
+            cardTitle: "Height in Marriage biodata",
+            cardDes: "Height is an important aspect of personal details in marriage biodata. It should be accurate and in right format. Height can be present in marriage biodata in cm, feet or inches..."
+        },
+        {
+            id: 3,
+            cardTitle: "How to share biodata for marriage?",
+            cardDes: "To share bio data for marriage you must first create marriage biodata in PDF or image format. These two formats can be opened on any device such as mobile, tablet, laptop etc.."
+        },
+        {
+            id: 4,
+            cardTitle: "Marriage Biodata in different Communities",
+            cardDes: "The marriage resume can be created online for different communities of India such as Agarwal, Gupta, Hindu, Maheshwari, Muslim, Brahmin, Gujarati, Parsi...."
+        }
+    ]
+};
+
+const sectionBioData = {
+    header: {
+        title: "Sections in Marriage Biodata",
+        description: "A marriage biodata should be created carefully to create the best impression on your potential matches. Each biodata is divided in different sections and sub-sections. We have included each of the below sections in our biodata form. Let us discuss each part of marriage biodata in detail :-"
+    },
+    features: [
+        {
+            id: 1,
+            cardTitle: "Personal Information",
+            cardDes: "The first section that needs to be filled is Personal Information. This section includes important details about the person seeking marriage, such as their full name, date of birth, and gender."
+        },
+        {
+            id: 2,
+            cardTitle: "Family Details",
+            cardDes: "Family details should be included in marriage biodata so that the potential partner can know about the parents, siblings, their occupations and other relatives information."
+        },
+        {
+            id: 3,
+            cardTitle: "Contact Information",
+            cardDes: "Contact information is important and should be included in marriage biodata. It is the way by which potential matches can contact each other..."
+        }
+    ]
+};
+
+export { PersonalInfo, FamilyInfo, ContactInfo, Card, featurBioData, sectionBioData };

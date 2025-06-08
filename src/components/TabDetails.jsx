@@ -45,7 +45,7 @@ const TabDetails = ( { activeTab } ) => {
     // Function to render form fields
     const renderFormFields = ( fields ) => {
         return fields.map( ( field, index ) => (
-            <div className="w-full flex flex-col md:flex-row px-2 md:px-4 justify-center gap-2 py-2" key={ index }>
+            <div className="w-full flex flex-col md:flex-row px-2 md:px-4 justify-center gap-2 py-2 z-10" key={ index }>
                 <label htmlFor="" className="border border-black rounded-lg py-2 px-4 w-full md:w-68">{ field.label }</label>
                 <input
                     type={ field.type }

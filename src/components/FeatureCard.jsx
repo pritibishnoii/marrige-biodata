@@ -7,11 +7,11 @@ const FeatureCard = () => {
         <div className='flex flex-col justify-center h-full py-4 md:py-8 items-center'>
             {/* Features Section */ }
             <div className='w-[95%] md:w-[90%] flex flex-col font-libre bg-[#FFD0E196] h-full mt-6 md:mt-12 items-center justify-between shadow py-6 md:py-12 px-4 md:px-8 relative'>
-                <div className='absolute top-0 right-5'>
-                    <img src={ whiteFlower } alt="img" />
+                <div className='absolute top-0 right-8 '>
+                    <img src={ whiteFlower } alt="img" className='hidden md:inline' />
                 </div>
-                <div className='absolute -top-4 left-4 rotate-90'>
-                    <img src={ leftFlower } alt="img" />
+                <div className='absolute -top-4 left-4 rotate-90 '>
+                    <img src={ leftFlower } alt="img" className='' />
                 </div>
                 <h1 className='text-[#A1347E] text-lg md:text-xl font-bold mb-6 md:mb-8 py-2 text-center z-10'>Essential features of our biodata maker app</h1>
                 <div className='flex flex-col md:flex-row h-max justify-between gap-6 md:gap-12  md:flex-wrap md:justify-center'>
@@ -31,7 +31,7 @@ const FeatureCard = () => {
                         <p className='text-[12px] text-center'>Enter your details, choose template and voila! your Biodata in pdf format is ready...</p>
                     </div>
                     <div className='absolute bottom-0 left-5 rotate-180 '>
-                        <img src={ whiteFlower } alt="img" />
+                        <img src={ whiteFlower } alt="img" className='hidden md:inline' />
                     </div>
                     <div className='absolute -bottom-4 right-4 -rotate-90'>
                         <img src={ leftFlower } alt="img" />

@@ -1,11 +1,19 @@
 import React from 'react'
-import { fb, insta, twiter, whatsup } from '../assets'
+import { fb, insta, slflower, twiter, whatsup } from '../assets'
 
 const Footer = () => {
     return (
-        <div className='w-full min-h-[400px] bg-[#FFD0E196] rounded-tl-[100px] rounded-tr-[100px] flex flex-col  lg:flex-row  flex-wrap justify-between font-libre md:flex-col py-12 px-4 md:px-12 gap-8 lg:py-12'>
+        <div className='w-full h-max bg-[#FFD0E196] rounded-tl-[100px] rounded-tr-[100px] flex flex-col lg:flex-row flex-wrap justify-between font-libre md:flex-col  px-4 md:px-12 gap-8 lg:py-8 relative  overflow-hidden py-8 '  >
 
-            <div className="w-full md:w-1/3 py-4 mt-8 px-2 md:px-6  ">
+
+            <div className="absolute -bottom-8 -left-12 -rotate-90 md:w-48 ">
+                <img src={ slflower } alt="flw" />
+            </div>
+            <div className="absolute -bottom-2  -left-18 -rotate-120 md:w-48 ">
+                <img src={ slflower } alt="flw" />
+            </div>
+
+            <div className="w-full md:w-1/3 py-4 mt-8 px-2 md:px-6">
                 <h1 className='font-bold text-md'>About Us</h1>
                 <p className='text-[12px] text-gray-800 mt-4'>Welcome to our online matrimonial biodata maker! We are a team of dedicated professionals with a passion for making the process of creating a biodata simple, easy, and enjoyable.
                     We understand the importance of finding the right match and believe that a great biodata is the first step in that journey. That's why we have made our tool easy to use and customizable, allowing you to create a beautiful biodata that truly represents you.</p>
@@ -50,6 +58,7 @@ const Footer = () => {
                     <li className='text-[12px] text-gray-800 cursor-pointer'>Contact Us</li>
                 </ul>
             </div>
+
         </div>
     )
 }

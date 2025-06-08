@@ -9,7 +9,7 @@ import DetailedGuied from '../components/DetailedGuied'
 
 const Home = () => {
     return (
-        <div className="w-full h-max overflow-x-hidden bg-[#EFE7FDB0]">
+        <div className="w-full h-full overflow-x-hidden bg-[#EFE7FDB0]">
             <Hero />
             <BiodataForm />
             <FeatureCard />

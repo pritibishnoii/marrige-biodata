@@ -1,12 +1,12 @@
 import React from 'react'
 import { biotemp, bottomFlower } from '../assets'
-import { featurBioData, sectionBioData } from '../utils/TabDetails'
+
 
 const DetailedGuied = () => {
     return (
         <div className='flex flex-col justify-center h-full py-4 md:py-8 items-center relative'>
-            <div className=" absolute top-0 -right-8  -rotate-70  ">
-                <img src={ bottomFlower } alt="img" className='w-98' />
+            <div className=" absolute top-0 -right-8  -rotate-70   ">
+                <img src={ bottomFlower } alt="img" className='w-48 md:w-98' />
             </div>
 
             {/* Sections Guide */ }
@@ -15,9 +15,9 @@ const DetailedGuied = () => {
 
                 <div className='flex flex-col md:justify-center lg:flex-row w-full justify-between px-4 md:px-8 lg:px-18 gap-8'>
                     <div className='w-full md:w-[90%] lg:w-[50%] mx-auto flex justify-center items-center'>
-                        <img src={ biotemp } alt="img" className='w-full min-w-[300px] max-w-[600px] h-auto object-contain' />
+                        <img src={ biotemp } alt="img" className='w-full min-w-[300px] max-w-[600px] h-auto object-contain ' />
                     </div>
-                    <div className='flex flex-col justify-around gap-6 md:gap-8'>
+                    <div className='flex flex-col justify-around gap-6 md:gap-8 z-10'>
                         <p className='text-sm md:text-base text-center mb-8 max-w-3xl '>Follow these 3 easy steps to create an attractive biodata with our free marriage biodata maker.</p>
                         <div className='flex flex-col gap-5'>
                             <h3 className='text-lg font-bold '>Step 1. Fill all your details in the language of your choice</h3>

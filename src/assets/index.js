@@ -51,8 +51,15 @@ import bottomFlower from './bottomflower.svg'
 import slflower from './slflower.svg'
 import whiteFlower from './whiteflower.svg'
 import leftFlower from './leftFlower.svg'
+import flw from './flw.svg'
+import floeal3 from './floeal3.svg'
+import floeal2 from './floeal2.svg'
+
 
 export {
+    flw,
+    floeal3,
+    floeal2,
     leftFlower,
     whiteFlower,
     bottomFlower,

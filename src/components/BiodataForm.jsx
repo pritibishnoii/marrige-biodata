@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import { AnimatePresence } from "motion/react"
-import { RiDeleteBinLine } from "react-icons/ri";
-import { HiOutlinePlusCircle } from "react-icons/hi";
 import TabDetails from './TabDetails';
+import { floeal2, floeal3, leftFlower, slflower } from '../assets';
 
 const tabMenu = [
     "Personal Details", "Family Details", " Contact Details", "Template"
@@ -32,7 +31,12 @@ const BiodataForm = () => {
         <div className="w-full h-3/4 rounded-l-[50px] md:rounded-l-[150px] rounded-r-[50px] md:rounded-r-[150px] shadow-lg shadow-[#A1347E] py-6 md:py-12 flex flex-col items-center mt-4 md:mt-8 px-4 md:px-0">
             <h1 className="text-2xl md:text-3xl font-semibold text-center text-[#A1347E] font-libre py-4 md:py-8">Create Your Biodata Now</h1>
 
-            <div className="bg-gradient-to-r from-[#F2E5FF] to-[#F7C0D496] w-[95%] md:w-[80%] py-6 md:py-12 px-4 md:px-8 shadow-[12px_1px_18px_rgba(153,102,204,0.23)] rounded-lg  h-full">
+            <div className="bg-gradient-to-r from-[#ffd6e796]  to-[#F2E5FF] w-[95%] md:w-[80%] py-6 md:py-12 px-4 md:px-8 shadow-[12px_1px_18px_rgba(153,102,204,0.23)] rounded-lg  h-full relative">
+
+                <div className=" absolute  -top-0 -right-0 -rotate-180 lg:w-98  md:w-48 w-28">
+                    <img src={ leftFlower } alt="flw" />
+                </div>
+
                 {/* tab */ }
                 <div className='w-full flex flex-wrap justify-center gap-2 md:gap-8'>
                     {
@@ -54,6 +58,15 @@ const BiodataForm = () => {
 
                 {/* buttons */ }
                 { renderButtons() }
+                <div className="absolute top-130  -left-14   md:w-85 " >
+                    <img src={ floeal2 } alt="flw" />
+                </div>
+                <div className="absolute bottom-28  -left-20 -rotate-90 md:w-85 w-38" >
+                    <img src={ slflower } alt="flw" />
+                </div>
+                <div className="absolute bottom-28 -right-14   md:w-85 w-38" >
+                    <img src={ floeal3 } alt="flw" />
+                </div>
             </div>
         </div>
     )
